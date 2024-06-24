@@ -1,0 +1,2 @@
+A 123 array is an array that contains repetittions of that values 1,2,3 in that order. for example {1,2,3,1,2,3,1,2,3} is a 123 array but {1,2,3,1,2} is not.
+write a funtion named is123Array which return 1 if its array argument is a 123 array, otherwise 0.
