@@ -1,0 +1,1 @@
+An array is rapidly increasing if each element is grater than twice the sum of all its preceding elements. write a method isRepidlyIncrising that returns 1 if its array argument is rapidly increasing otherwise it returns 0.  solve it using java. use this peramiter to test {1,3,9,27}, {1,3,200,500}, {1}, {1,3,9,26}, { 1,3,7,26 }, {1,3,8,26}
