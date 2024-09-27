@@ -1,5 +1,5 @@
 public class App {
-    public static boolean isPrime(int n) {
+    public static boolean isPrime2(int n) {
         if(n == 2 || n == 3){
             return true;
         }
@@ -10,6 +10,18 @@ public class App {
         
         for (int i = 5; i*i <= n; i += 6) {
             if(n % i == 0 || n % (i+2) == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+    public static boolean isPrime(int n) {
+        boolean is_less_then_equal_one = n <= 1;
+        if(is_less_then_equal_one){
+            return false;
+        }
+        for (int i = 2; i < n; i++) {
+            if(n % i == 0 ){
                 return false;
             }
         }

@@ -9,10 +9,10 @@ public class App {
             if(n == 1){
                 return 0;
             }
-            if(args[i]%2 == 0){
-                n = n*2;
+            if(n%2 == 0){
+                n = n/2;
             }else{
-                n = (n-1)/2;
+                n = 3*n + 1;
             }
             if(args[i] != n){
                 return 0;
